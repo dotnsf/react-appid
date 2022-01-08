@@ -30,7 +30,7 @@ https://www.ibm.com/cloud/blog/secure-your-single-page-react-apps-using-app-id
 
 ## How to push build/ folder into `gh-pages` branch of github.
 
-1. `$ git subtree push --prefix build origin gh-pages``
+1. `$ git subtree push --prefix build origin gh-pages`
 
 
 ## Copyright
