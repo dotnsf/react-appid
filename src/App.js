@@ -38,7 +38,7 @@ function App() {
   return (
     <div className='App'>
     <header className='App-header'>
-      <img src="https://raw.githubusercontent.com/dotnsf/react-appid/main/src/logo.svg" className='App-logo' alt='logo' />
+      <img src={logo} className='App-logo' alt='logo' />
         {welcomeDisplayState && <div> Welcome {userName}! You are now authenticated.</div>}
         {loginButtonDisplayState && <button style={{fontSize: '24px', backgroundColor: 'skyblue', 
           border: 'none', cursor: 'pointer'}} id='login' onClick={loginAction}>Login</button>}
