@@ -18,14 +18,22 @@ https://www.ibm.com/cloud/blog/secure-your-single-page-react-apps-using-app-id
 
   - If you use Github Pages as web host, you need to specify `https://xxxx.github.io` as redirect_uri.
 
-3. `$ npm start` / `$ node app`
+3. Add `.env` file, and edit it like this with your credentials:
+
+```
+REACT_APP_CLIENT_ID=<ClientID>
+REACT_APP_DISCOVERY_ENDPOINT=<DiscoveryEndpointURL>
+```
+
+4. `$ npm start`
+
+5. Browse `http://localhost:3000`
 
 
-## How to prepare for statis web server.
+## How to prepare for static web server.
 
 1. `$ npm run build`
 
-2. Edit `build/index.html` to use relative path.
 
 
 ## How to push build/ folder into `gh-pages` branch of github.
